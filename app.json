@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "LapakCheck",
+    "slug": "lapakcheck",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2E7D32"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.lapakcheck.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "LapakCheck butuh akses kamera untuk mengambil foto selfie saat kamu check-in membuka lapak.",
+        "NSPhotoLibraryUsageDescription": "LapakCheck butuh akses galeri agar kamu bisa memilih foto yang sudah ada sebagai foto check-in.",
+        "NSLocationWhenInUseUsageDescription": "LapakCheck butuh akses lokasi untuk mencatat titik koordinat lapak kamu saat check-in.",
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.lapakcheck.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#2E7D32"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "LapakCheck butuh akses galeri agar kamu bisa memilih foto yang sudah ada sebagai foto check-in.",
+          "cameraPermission": "LapakCheck butuh akses kamera untuk mengambil foto selfie saat kamu check-in membuka lapak."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "LapakCheck butuh akses lokasi untuk mencatat titik koordinat lapak kamu saat check-in."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "6040b110-563c-40c2-bca9-0f69852e5f27"
+      }
+    }
+  }
+}
