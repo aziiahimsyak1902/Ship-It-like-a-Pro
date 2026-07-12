@@ -15,6 +15,7 @@ Check-in buka lapak dengan selfie + lokasi. Aplikasi sederhana untuk pedagang/pe
 <a href="https://ibb.co.com/GQcxfNMs"><img src="https://i.ibb.co.com/N2ZVgbN1/Whats-App-Image-2026-07-12-at-22-22-00.jpg" alt="Whats-App-Image-2026-07-12-at-22-22-00" border="0"></a>
 <a href="https://ibb.co.com/6RP7hVTD"><img src="https://i.ibb.co.com/KjqpZRfV/Whats-App-Image-2026-07-12-at-22-21-59-2.jpg" alt="Whats-App-Image-2026-07-12-at-22-21-59-2" border="0"></a>
 <a href="https://ibb.co.com/tMR0XS7k"><img src="https://i.ibb.co.com/3yKxzwDG/Whats-App-Image-2026-07-12-at-22-21-59-1.jpg" alt="Whats-App-Image-2026-07-12-at-22-21-59-1" border="0"></a>
+<a href="https://ibb.co.com/yc52xjhq"><img src="https://i.ibb.co.com/G4kmrSsR/Whats-App-Image-2026-07-12-at-22-34-50.jpg" alt="Whats-App-Image-2026-07-12-at-22-34-50" border="0"></a>
 
 
 ## 🔐 Izin yang digunakan
